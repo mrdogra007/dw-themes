@@ -1,0 +1,47 @@
+/* 
+CSS Style sheet
+Author: Nishant Dogra
+Updated: 29-06-2018
+About: http://dograsweblog.com/nishant-dogra/
+*/
+
+a:hover, a:focus, a.active { color: #f4a200;}
+
+.header-top-wrapper { display: none;}
+.header-layout-one .site-info { padding: 5px 0px;}
+.header-layout-one .site-info .site-description { font-size: 12px; color: #b3adad;}
+.main-nav-container.clearfix { background: #f4a200; -webkit-box-shadow: none; box-shadow: none;}
+.primary-menu-container .primary-menu>li>a { color: #fff; font-weight: 400;}
+.main-post-area-wrapper .main-post-area-holder article .post-title h2 { padding: 15px 0 0px 0; text-transform: capitalize; font-size: 32px;}
+.main-post-area-layout-one .main-post-area-holder article .post-permalink { margin-bottom: 30px;}
+
+.breadcrumb-wrapper { display: none;}
+
+.widget-content { padding: 15px;}
+.widget_search form { margin-bottom: 0;}
+.widget_archive li, .widget_categories li, .widget_recent_entries li, .widget_meta li, .widget_recent_comments li, .widget_rss li, .widget_pages li, .widget_nav_menu li, .widget_product_categories li { font-size: 15px; line-height: 1.4; padding: 8px 0;}
+
+.widget.widget-grofile.grofile { text-align: center;}
+.grofile-thumbnail { width: 500px; max-width: 50%; margin: 0 25%; float: none; border-radius: 50%;}
+
+#subscribe-submit input[type="submit"] { border: none; border-radius: 3px; background: #e6e6e6; color: #ffffff; font-size: 16px; line-height: 16px; padding: 10px 15px; margin-top: 10px; background: #f4a200;}
+.main-post-area-holder .single-page-other-information-holder .post-title { padding: 20px 0 5px;}
+.main-post-area-holder .single-page-other-information-holder .postmeta { padding-bottom: 20px;}
+.postmeta ul li, .postmeta ul li a { color: #f4a200;}
+
+.widget_archive a::before, .widget_categories a::before, .widget_recent_entries a::before, .widget_meta a::before, .widget_recent_comments li::before, .widget_rss li:before, .widget_pages li:before, .widget_nav_menu li:before, .widget_product_categories a:before { color: #f4a200;}
+.widget_search .search-submit, .widget_product_search input[type="submit"] { background: #f4a200;}
+
+.mean-container a.meanmenu-reveal span { height: 3px; margin-top: 6px;}
+.mean-container .mean-nav { margin-top: 46px;}
+.header-layout-one .primary-menu-container { border: none;}
+.mean-container .mean-nav ul li a { background-color: #c58506;}
+
+footer { padding: 0; background-color: #2d2821;}
+footer .footer-inner .copyright-and-nav-row { margin-top: 0;}
+
+.error-message-holder h2 { color: #f4a200;}
+
+@media screen and (max-width: 450px) {
+	.mean-container { padding-bottom: 0;}
+}
