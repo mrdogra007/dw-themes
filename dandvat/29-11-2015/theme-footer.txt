@@ -1,0 +1,27 @@
+<?php
+/**
+ * The template for displaying the footer.
+ *
+ * Contains the closing of the id=main div and all content after
+ *
+ * @package untitled
+ */
+?>
+
+	</div><!-- #main .site-main -->
+</div><!-- #page .hfeed .site -->
+	
+	<div class="sindo_dandvat2">
+		<img src="<?php echo get_template_directory_uri() ?>/footer-dandvat.png" alt="dandvat pranam" />
+	</div>
+	<div id="colophon-wrap">
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="site-info">
+				<a rel="designer" href="javascript:void(0);"><i class="fa fa-home"></i> Dandvat.Com</a> empowered by <a title="Sindo Studs" rel="generator" href="http://sindostuds.com/">SindoStuds.Com</a>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #colophon-wrap -->
+
+<?php wp_footer(); ?>
+</body>
+</html>
